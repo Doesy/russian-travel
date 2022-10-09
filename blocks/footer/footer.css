@@ -1,0 +1,8 @@
+.footer {
+  display: grid;
+  margin: 0;
+  margin-bottom: 7.5%;
+  margin-left: 5%;
+  padding: 0;
+  max-width: fit-content;
+}

@@ -1,2 +1,12 @@
-.cover_subtitle {
+.cover__subtitle {
+  margin: 0 auto;
+  margin-bottom: 33px;
+  /*padding-bottom: 33px;*/
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+  max-width: 90%;
 }

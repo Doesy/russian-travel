@@ -1,6 +1,5 @@
 .place__image {
   margin: 0;
-  margin-bottom: 32px;
-  width: 320px;
-  height: 100%;
+  margin-bottom: 10%;
+  max-width: 100%;
 }
