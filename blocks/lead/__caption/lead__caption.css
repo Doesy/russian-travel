@@ -1,5 +1,6 @@
 .lead__caption {
   margin: 0;
+  margin-left: 16px;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 0.15em;
@@ -7,4 +8,16 @@
   text-align: center;
   text-transform: uppercase;
   align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    margin-left: 0;
+  }
 }
