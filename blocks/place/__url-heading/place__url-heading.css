@@ -4,6 +4,13 @@
   font-size: 12px;
   line-height: 12px;
   font-weight: normal;
+  text-align: left;
   letter-spacing: 0.2em;
   color: #aaa;
+}
+
+@media (min-width: 1024px) {
+  .place__url-heading {
+    line-height: 170%;
+  }
 }

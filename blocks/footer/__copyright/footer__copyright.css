@@ -5,4 +5,13 @@
   font-size: 14px;
   line-height: 14px;
   font-weight: normal;
+  max-height: max-content;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+  }
 }

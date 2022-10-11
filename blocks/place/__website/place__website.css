@@ -6,3 +6,18 @@
   justify-content: space-between;
   align-self: flex-start;
 }
+
+@media (min-width: 768px) {
+  .place__website {
+    margin: 0;
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__website {
+    margin: 0;
+    min-width: 100%;
+    align-self: end;
+  }
+}

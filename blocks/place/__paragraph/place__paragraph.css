@@ -5,12 +5,29 @@
   line-height: 163%;
   font-weight: normal;
   text-align: left;
-  color: #fff;
 }
 
 .place__paragraph:first-of-type {
   margin-bottom: 25px;
 }
+
 .place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .place__paragraph {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+
+  .place__paragraph:first-of-type {
+    margin-bottom: 26px;
+  }
 }

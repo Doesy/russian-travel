@@ -1,9 +1,32 @@
 .place {
-  margin: 0;
-  margin-bottom: 15.625%;
+  margin: 0 auto;
+  margin-bottom: 50px;
   display: grid;
 }
 
 .place:last-of-type {
   margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .place {
+    margin-bottom: 72px;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    margin-bottom: 80px;
+    grid-template-columns: 440px 456px;
+    gap: 48px 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    grid-template-columns: 460px 484px;
+    gap: 48px 40px;
+  }
 }

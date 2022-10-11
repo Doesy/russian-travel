@@ -1,21 +1,22 @@
 .header {
-  margin: 0 auto 48px;
-  padding-top: 5%;
+  margin: 16px auto 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-height: 42px;
+  align-items: center;
   max-width: 90%;
 }
 
 @media (min-width: 768px) {
   .header {
-    padding-top: 28px;
+    margin-top: 28px;
+    max-width: 93.75%;
   }
 }
 
 @media (min-width: 1280px) {
   .header {
+    max-width: 92.5%;
     margin-bottom: 56px;
   }
 }

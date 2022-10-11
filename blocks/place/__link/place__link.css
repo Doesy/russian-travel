@@ -3,5 +3,19 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: normal;
+  text-align: left;
+  max-width: max-content;
   color: #fff;
+}
+
+.place__link:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
+  transition: opacity 0.35s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .place__url-heading {
+    min-width: 456px;
+  }
 }
