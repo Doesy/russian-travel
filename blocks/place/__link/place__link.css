@@ -9,7 +9,6 @@
 }
 
 .place__link:hover {
-  background: #2a2c2f;
   opacity: 0.8;
   transition: opacity 0.35s ease-in-out;
 }

@@ -11,10 +11,6 @@
   margin-bottom: 25px;
 }
 
-.place__paragraph:last-child {
-  margin-bottom: 0;
-}
-
 @media (min-width: 768px) {
   .place__paragraph {
     margin: 0;
@@ -30,4 +26,8 @@
   .place__paragraph:first-of-type {
     margin-bottom: 26px;
   }
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
