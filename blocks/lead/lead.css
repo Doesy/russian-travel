@@ -7,9 +7,16 @@
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+}
+
 @media (min-width: 1024px) {
   .lead {
     max-width: calc(100% - 2 * 48px);
+    margin-bottom: 92px;
   }
 }
 

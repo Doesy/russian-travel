@@ -6,7 +6,6 @@
   align-items: center;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  /*background-position: center;*/
   background-repeat: no-repeat;
   min-height: 200px;
   margin: 0;
@@ -35,11 +34,20 @@
 @media (min-width: 768px) {
   .cover__overlay {
     min-width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__overlay {
+    min-width: 100%;
+    min-height: 640px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__overlay {
     max-width: calc(100% - 2 * 48px);
+    min-height: 740px;
   }
 }
