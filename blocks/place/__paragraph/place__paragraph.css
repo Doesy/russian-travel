@@ -1,6 +1,7 @@
 .place__paragraph {
   margin: 0 auto;
   max-width: 90%;
+  height: auto;
   font-size: 16px;
   line-height: 163%;
   font-weight: normal;
@@ -9,6 +10,10 @@
 
 .place__paragraph:first-of-type {
   margin-bottom: 25px;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -26,8 +31,4 @@
   .place__paragraph:first-of-type {
     margin-bottom: 26px;
   }
-}
-
-.place__paragraph:last-child {
-  margin-bottom: 0;
 }
